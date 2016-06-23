@@ -16,7 +16,7 @@ Demo Project
 See `PHAuToScrollView/PHAuToScrollView.xcodeproj`
 
 <img src="https://raw.github.com/HeterPu/PHAutoScrollView/master/PHAuToScrollView/demo/snapshot/pic1.png" width="760"><br/>
-<img src="https://raw.github.com/HeterPu/PHAutoScrollView/master/PHAuToScrollView/demo/snapshot/pic1.png" width="760">
+<img src="https://raw.github.com/HeterPu/PHAutoScrollView/master/PHAuToScrollView/demo/snapshot/pic2.png" width="760">
 
 
 Installation
