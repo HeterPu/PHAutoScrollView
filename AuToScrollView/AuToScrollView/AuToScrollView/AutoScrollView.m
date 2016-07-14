@@ -10,20 +10,18 @@
 
 
 @interface AutoScrollView()
-
-
-
 @end
+
 @implementation AutoScrollView
 
-
-+(instancetype)autoScrollViewWithFrame:(CGRect)frame withStyle:(PHAutoScrollViewOrientation)oritentaion andSubViewArray:(NSArray *)viewarray {
++(instancetype)autoScrollViewWithFrame:(CGRect)frame
+                             withStyle:(PHAutoScrollViewOrientation)oritentaion
+                        andSubViewArray:(NSArray *)viewarray {
     
     AutoScrollView *autoview = [[AutoScrollView alloc]initWithFrame:frame];
     autoview.oritentaion = oritentaion;
     autoview.viewArray = viewarray;
     return autoview;
-    
 }
 
 
@@ -53,7 +51,6 @@
                 [self addSubview:subview];
             }
         }
-        
     }
     else
     {
@@ -69,11 +66,7 @@
                 [self addSubview:subview];
             }
         }
-        
     }
-    
-    
-    
 }
 
 

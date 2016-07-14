@@ -10,14 +10,14 @@
 		D0337D5F1D1B770E004C976E /* CubeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0337D5C1D1B770E004C976E /* CubeView.xib */; };
 		D0337D601D1B770E004C976E /* CubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0337D5E1D1B770E004C976E /* CubeView.m */; };
 		D0337D631D1B773A004C976E /* SumCubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0337D621D1B773A004C976E /* SumCubeView.m */; };
+		D03817C41D37335300753542 /* AutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03817C11D37335300753542 /* AutoScrollView.m */; };
+		D03817C51D37335300753542 /* PHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D03817C31D37335300753542 /* PHPageControl.m */; };
 		D094F3141D1A6C880049DAA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D094F3131D1A6C880049DAA7 /* main.m */; };
 		D094F3171D1A6C880049DAA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D094F3161D1A6C880049DAA7 /* AppDelegate.m */; };
 		D094F31A1D1A6C880049DAA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D094F3191D1A6C880049DAA7 /* ViewController.m */; };
 		D094F31D1D1A6C880049DAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D094F31B1D1A6C880049DAA7 /* Main.storyboard */; };
 		D094F31F1D1A6C880049DAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D094F31E1D1A6C880049DAA7 /* Assets.xcassets */; };
 		D094F3221D1A6C880049DAA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D094F3201D1A6C880049DAA7 /* LaunchScreen.storyboard */; };
-		D094F32B1D1A6CCE0049DAA7 /* AutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D094F32A1D1A6CCE0049DAA7 /* AutoScrollView.m */; };
-		D094F32E1D1A6D940049DAA7 /* PHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D094F32D1D1A6D940049DAA7 /* PHPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +26,10 @@
 		D0337D5E1D1B770E004C976E /* CubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeView.m; sourceTree = "<group>"; };
 		D0337D611D1B773A004C976E /* SumCubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumCubeView.h; sourceTree = "<group>"; };
 		D0337D621D1B773A004C976E /* SumCubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumCubeView.m; sourceTree = "<group>"; };
+		D03817C01D37335300753542 /* AutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollView.h; sourceTree = "<group>"; };
+		D03817C11D37335300753542 /* AutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollView.m; sourceTree = "<group>"; };
+		D03817C21D37335300753542 /* PHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPageControl.h; sourceTree = "<group>"; };
+		D03817C31D37335300753542 /* PHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPageControl.m; sourceTree = "<group>"; };
 		D094F30F1D1A6C880049DAA7 /* AuToScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuToScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D094F3131D1A6C880049DAA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D094F3151D1A6C880049DAA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,10 +40,6 @@
 		D094F31E1D1A6C880049DAA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D094F3211D1A6C880049DAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D094F3231D1A6C880049DAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D094F3291D1A6CCE0049DAA7 /* AutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollView.h; sourceTree = "<group>"; };
-		D094F32A1D1A6CCE0049DAA7 /* AutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollView.m; sourceTree = "<group>"; };
-		D094F32C1D1A6D940049DAA7 /* PHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPageControl.h; sourceTree = "<group>"; };
-		D094F32D1D1A6D940049DAA7 /* PHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,17 @@
 			name = "TEST VIEW";
 			sourceTree = "<group>";
 		};
+		D03817BF1D37330F00753542 /* AuToScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D03817C01D37335300753542 /* AutoScrollView.h */,
+				D03817C11D37335300753542 /* AutoScrollView.m */,
+				D03817C21D37335300753542 /* PHPageControl.h */,
+				D03817C31D37335300753542 /* PHPageControl.m */,
+			);
+			path = AuToScrollView;
+			sourceTree = "<group>";
+		};
 		D094F3061D1A6C880049DAA7 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +95,7 @@
 		D094F3111D1A6C880049DAA7 /* AuToScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D03817BF1D37330F00753542 /* AuToScrollView */,
 				D0337D5B1D1B76EE004C976E /* TEST VIEW */,
 				D094F3151D1A6C880049DAA7 /* AppDelegate.h */,
 				D094F3161D1A6C880049DAA7 /* AppDelegate.m */,
@@ -94,10 +106,6 @@
 				D094F3201D1A6C880049DAA7 /* LaunchScreen.storyboard */,
 				D094F3231D1A6C880049DAA7 /* Info.plist */,
 				D094F3121D1A6C880049DAA7 /* Supporting Files */,
-				D094F3291D1A6CCE0049DAA7 /* AutoScrollView.h */,
-				D094F32A1D1A6CCE0049DAA7 /* AutoScrollView.m */,
-				D094F32C1D1A6D940049DAA7 /* PHPageControl.h */,
-				D094F32D1D1A6D940049DAA7 /* PHPageControl.m */,
 			);
 			path = AuToScrollView;
 			sourceTree = "<group>";
@@ -183,11 +191,11 @@
 			files = (
 				D0337D601D1B770E004C976E /* CubeView.m in Sources */,
 				D094F31A1D1A6C880049DAA7 /* ViewController.m in Sources */,
-				D094F32E1D1A6D940049DAA7 /* PHPageControl.m in Sources */,
+				D03817C41D37335300753542 /* AutoScrollView.m in Sources */,
 				D094F3171D1A6C880049DAA7 /* AppDelegate.m in Sources */,
-				D094F32B1D1A6CCE0049DAA7 /* AutoScrollView.m in Sources */,
 				D094F3141D1A6C880049DAA7 /* main.m in Sources */,
 				D0337D631D1B773A004C976E /* SumCubeView.m in Sources */,
+				D03817C51D37335300753542 /* PHPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

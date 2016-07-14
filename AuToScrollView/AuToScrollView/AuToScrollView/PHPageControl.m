@@ -39,9 +39,6 @@
 }
 
 
-
-
-
 -(instancetype)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
@@ -51,9 +48,7 @@
     return self;
 }
 
-
 #pragma mark - settingwork
-
 
 -(void)setNumberOfPages:(NSInteger)numberOfPages {
     _numberOfPages = numberOfPages;
@@ -81,13 +76,10 @@
                 [button setImage:[UIImage imageNamed:_defaultImage] forState:UIControlStateHighlighted];
             }
             [self addSubview:button];
-
          }
-    
        }
     else
     {
-        
         for (int i =0; i < numberOfPages; i++) {
             UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
             button.tag = i + 1;
@@ -144,8 +136,6 @@
     }
     _selectedPage = selectedPage;
     
-
-    
     UIButton *selectedbutton = [self viewWithTag:(selectedPage + 1)];
     
     if (self.controlStyle == PHPageControlStyleSquare) {
@@ -158,7 +148,6 @@
     [selectedbutton setImage:[UIImage imageNamed:_selsectedImage] forState:UIControlStateHighlighted];
         
     }
-    
     if (self.isScaled == YES) {
         
     [UIView beginAnimations:nil context:nil];
@@ -167,8 +156,6 @@
     selectedbutton.transform = CGAffineTransformScale(CGAffineTransformMakeRotation(0), self.scaleFactor, self.scaleFactor);
     [UIView commitAnimations];
     }
-
-    
     _selectedButton = selectedbutton;
 }
 
