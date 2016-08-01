@@ -123,7 +123,8 @@ typedef NS_ENUM(NSUInteger, PHPageControlStyle) {
  *
  *  @return 实例对象
  */
-+(instancetype)pHpageControlwithFrame:(CGRect)frame customStyleWithSelectedImage:(NSString *)selectedimage defaultImage:(NSString *)defaultimage;
++(instancetype)pHpageControlwithFrame:(CGRect)frame
+         customStyleWithSelectedImage:(NSString *)selectedimage defaultImage:(NSString *)defaultimage;
 
 /**
  *  设置点击按钮的放大因子
